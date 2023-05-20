@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.background{
+    background-image: url("images/mountain.jpg");
+    height: 600px;
+    width: 1350px;
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+}
+.container{
+    display:grid;
+    place-items: center;
+    height:100vh;
+
+}
+.container{
+    font-size: 2rem;
+}
+.settings{
+    position: absolute;
+    bottom:30px;
+    right:20px;
+    display:flex;
+    align-items:centre;
+    gap:1rem;
+}
+.settings .fa-cog{
+    font-size:3rem;
+    color:white;
+}
+.settings-content{
+    display:flex;
+    gap:1rem;
+}
+.settings-content input{
+    padding:0.5rem 1rem;
+    font-size:1rem;
+}
+.settings-content button{
+    padding:0.5rem 1rem;
+    background-color: rgb(31, 23, 13);
+    border:none;
+    border-radius: 10px;
+    font-size:1rem;
+    color: white;
+
+}
+.hide{
+    display:none;
+}
+.centre h1{
+    font-size: 60px;
+
+}
+.time-container{
+    margin-top: 1rem;
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+}
+.time-container h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.time-container div{
+    font-size: 4rem;
+    color: white;
+}
